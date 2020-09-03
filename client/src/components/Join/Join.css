@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-.joinOuterContainer {
+.joinOutterContainer {
   display: flex;
   justify-content: center;
   text-align: center;
