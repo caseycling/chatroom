@@ -2,8 +2,8 @@ const users = [];
 
 const addUser = ({ id, name, room }) => {
   //Make name one word, no spaces and all lowercase
-  name = name.trim().toLowercase();
-  room = room.trim().toLowercase();
+  name = name.trim().toLowerCase();
+  room = room.trim().toLowerCase();
 
   //Check if new user's name already exists in the chatroom
   const existingUser = users.find(
