@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import queryString from 'query-string';
-import io, { Socket } from 'socket.io-client';
+import io from 'socket.io-client';
 
 import InfoBar from '../InfoBar/InfoBar';
 import Messages from '../Messages/Messages';
